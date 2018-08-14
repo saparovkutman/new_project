@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.modals{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+.modals .maska{
+    position: fixed;
+    background: rgba(0,0,0,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+.modals .modal_content{
+    position: fixed;
+    width: 60%;
+    height: 90vh;
+    top: 50px;
+    left: 20%;
+    border: 1px solid black;
+    background: #fff;
+    z-index: 999;
+    padding-bottom: 20px;
+}
+.modals .content{
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+}
+.modals .close_modal{
+    width: 30px;
+    height: auto;
+    float: right;
+    margin-right: 20px;
+    
+}
+.modals .close_modal .material-icons {
+    font-size: 30px;
+    color: #fff;
+}
+.modals .close_modal .material-icons {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    background: brown;
+    padding: 10px;
+}
